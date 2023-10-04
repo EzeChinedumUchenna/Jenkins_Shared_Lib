@@ -1,4 +1,4 @@
-// #!/usr/bin/env groovy
+#!/usr/bin/env groovy
 
 // def branchName = env.BRANCH_NAME
 
@@ -9,7 +9,6 @@
 //         sh "docker push $imageName"
 //     }
 // }
-#!/usr/bin/env groovy
 
 def call(String imageName, String branchName) {
     echo "deploying image in ${branchName} to ACR ...."
