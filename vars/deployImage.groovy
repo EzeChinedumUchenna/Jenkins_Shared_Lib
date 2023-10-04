@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-
+def branchName = env.BRANCH_NAME
 def branchName = env.BRANCH_NAME
 
 // def call(String imageName){
